@@ -1,0 +1,69 @@
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background-color: #660b0b;
+  color: #ffff;
+  height: 60px;
+  font-size: 2rem;
+}
+
+.user-list u1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+
+.user-list u1 li{
+  list-style: none;
+
+}
+
+.single-user {
+  display: flex;
+  justify-content: center;
+  
+
+  min-width: 400px;
+  background-color: #718de7;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  color: #333;
+  font-size: 1rem;
+
+}
+
+.single-user img{
+
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 100px;
+  
+}
+
+.user-info .user-mail{
+  margin: 10px 0;
+}
